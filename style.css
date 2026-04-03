@@ -1,0 +1,153 @@
+/* dasar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff;
+}
+
+/* header */
+header {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 50px 0; /* space header */
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    text-align: center;
+}
+
+.logo-image {
+    /* bigger logo */
+    max-height: 180px; /* 100px ke 180px */
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.logo-text {
+    /* bigger brand text */
+    font-size: 36px; /* 28px ke 36px */
+    font-weight: bold;
+    letter-spacing: 6px; /* antar huruf */
+    text-transform: uppercase;
+    color: #2c3e50;
+}
+
+/* main */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main p {
+    text-align: justify;
+    text-justify: inter-word; 
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #27ae60;
+    border-bottom: 2px solid #27ae60;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+/* foto edu (80%) */
+.featured-image-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.featured-image {
+    width: 80%; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* karsa */
+.intro-karsa {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px; 
+    gap: 10px;
+}
+
+.intro-karsa p {
+    margin: 0;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.karsa-thumb {
+    width: 12vw; 
+    aspect-ratio: 1 / 1; 
+    max-width: 80px;  
+    min-width: 50px;
+    object-fit: cover;
+    border-radius: 4px; 
+    border: 3px solid #eee; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* footer kontak */
+footer {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.insurance-section {
+    margin-bottom: 25px;
+}
+
+.insurance-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+
+.insurance-link:hover {
+    background-color: #e2e2e2;
+    border-color: #999;
+}
+
+.contact-link {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-link:hover {
+    background-color: #014325; 
+    transform: translateY(-2px);
+}
+
